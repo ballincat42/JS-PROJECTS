@@ -8,8 +8,8 @@ body{
 .testimonial-container{
     display: flex;
     flex-direction:column;
-    width:800px;
-    height:500px;
+    width:1000px;
+    height:550px;
     border-radius:15px;
     background-color:#102C57;
     justify-content:center;
@@ -22,8 +22,12 @@ img{
     border-radius:100%;
 }
 p{
-    font-size:1.8em;
+    font-size:1.5em;
 }
-h1{
+.Name{
     font-weight:bold;
+}
+.title{
+    font-weight:bold;
+    font-size:3em;
 }
