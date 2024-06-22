@@ -1,0 +1,29 @@
+body{
+    color:white;
+    font-family:arial,sans-serif;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+}
+.testimonial-container{
+    display: flex;
+    flex-direction:column;
+    width:800px;
+    height:500px;
+    border-radius:15px;
+    background-color:#102C57;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+}
+img{
+    width:200px;
+    height:200px;
+    border-radius:100%;
+}
+p{
+    font-size:1.8em;
+}
+h1{
+    font-weight:bold;
+}
