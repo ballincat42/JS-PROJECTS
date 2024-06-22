@@ -17,7 +17,7 @@ const Cars = [
     {
         NameCar:"Schlawg",
         Text:"one of the lookxmaxing car founder, such a sigma car, Chad😐",
-        Image:"/Testimonial-Slider/img/axle.png",
+        Image:"/Testimonial-Slider/img/chatto.jpg",
     },
 ];
 
