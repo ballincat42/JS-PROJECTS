@@ -40,5 +40,5 @@ function updateCars(){
     }
     setTimeout(() => {
         updateCars();
-      }, 3000);
+      }, 3500);
 }
