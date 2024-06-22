@@ -1,23 +1,28 @@
 const bodyEl = document.querySelector("body");
+    const spanEl = document.querySelector("span");
+    let isMoving = false;
+    let mouseX = 0;
+    let mouseY = 0;
 
-bodyEl.addEventListener("mousemove", (event) => {
+    bodyEl.addEventListener("mousemove", (event) => {
+      mouseX = event.clientX;
+      mouseY = event.clientY;
 
-  const xPos = event.offsetX;
-  const yPos = event.offsetY;
+      if (!isMoving) {
+        isMoving = true;
+        requestAnimationFrame(updatePosition);
+      }
+    });
 
-  const spanEl = document.createElement("span");
+    function updatePosition() {
+      spanEl.style.left = `${mouseX}px`;
+      spanEl.style.top = `${mouseY}px`;
 
-  spanEl.style.left = xPos + "px";
-  spanEl.style.top = yPos + "px";
-
-  const size = Math.random() * 100;
-
-  spanEl.style.width = size + "px";
-  spanEl.style.height = size + "px";
-
-  bodyEl.appendChild(spanEl);
+      if (isMoving) {
+        requestAnimationFrame(updatePosition);
+      } else {
+        isMoving = false;
+      }
+      console.log(mouseX,mouseY)
+    }
   
-  setTimeout(() => {
-    spanEl.remove();
-  }, 3000);
-});

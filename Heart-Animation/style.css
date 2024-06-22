@@ -6,16 +6,17 @@ body {
   }
   
   span {
-    background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-512.png");
+    background: url("PopCat.png");
     width: 100px;
     height: 100px;
+    border-radius:100%;
     position: absolute;
     pointer-events: none;
     background-size: cover;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    animation: animate 6s linear;
+    transition: left 0.1s ease, top 0.1s ease;
   }
   
   @keyframes animate {
