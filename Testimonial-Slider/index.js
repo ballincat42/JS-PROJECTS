@@ -6,7 +6,7 @@ const Cars = [
     },
     {
         NameCar:"Axle",
-        Text:"known as silly axle, very silly car, can't even form a thought😐",
+        Text:"known as silly axle, very silly car, can't even form a thought😛",
         Image:"/Testimonial-Slider/img/axle.png",
     },
     {
@@ -16,8 +16,8 @@ const Cars = [
     },
     {
         NameCar:"Schlawg",
-        Text:"one of the lookxmaxing car founder, such a sigma car, Chad😐",
-        Image:"/Testimonial-Slider/img/chatto.jpg",
+        Text:"one of the lookxmaxing car founder, such a sigma car, Chad😐😯",
+        Image:"/Testimonial-Slider/img/chadto.jpg",
     },
 ];
 
