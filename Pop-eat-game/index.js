@@ -32,11 +32,7 @@ const bodyEl = document.querySelector("body");
       } else {
         isMoving = false;
       }
-      
-  
     }
-
- 
 
 const audio = document.querySelector("audio");
 
@@ -71,7 +67,6 @@ function play(){
        1000
      })
  
-     
      let scoreText = document.querySelector("p").textContent = `score: ${score} 🍔`;
      
      cheeseBurger.onmouseover = () => {
