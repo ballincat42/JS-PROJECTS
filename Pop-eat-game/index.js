@@ -99,7 +99,8 @@ function updateBlobPosition(blob) {
     audio2.play();
 }
 
-
+blobPos(); 
+//call the func so the blops will appended to da bodyEl
 }
 
   /* V.1 man.. i'm out of here
