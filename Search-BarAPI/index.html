@@ -3,40 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokemon Search Bar</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <input type="text" placeholder="Enter Pokemon Name" id="PokemonName">
-    <button onclick="">Search</button>
-
-    <div>
-       <div class="Card">
-        <img src="" alt="Pokemon">
-        <p>Type:</p>
+<body class="bg-[#5F5D9C] pt-[14em] text-white pb-10">
+    <h1 class="text-center text-[6em]">Pokemon Search Image</h1>
+    <div class="flex mx-auto w-[1200px] flex-col flex-wrap justify-center h-auto bg-[#071952] p-10 gap-5 shadow-lg shadow-[#240750] rounded-md">
+            <div class="flex gap-5 max-auto justify-center">
+        <input type="text" id="PokemonName" class="h-[80px] w-[600px] text-2xl font-semibold text-white rounded-md
+         p-4 border-8 bg-[#1C1678] outline-none  border-[#3726bd]" placeholder="Enter Pokemon Name" id="PokemonName">
+        <button onclick="fetchData()" class="w-[250px] h-[80px] text-xl text-white font-medium rounded-md bg-[#3c2f94] 
+        cursor-pointer hover:brightness-110  transition-all">Search</button>  
+    </div>    
+    
+    <div class="flex mx-auto gap-5 mt-5 flex-wrap justify-center">
+       <div class="shadow-md hide card1 shadow-slate-800  w-[300px] rounded-md h-[350px] bg-[#190482] flex-col p-5">
+        <p class="text-xl font-medium name1">Pokemon</p>
+        <br>
+        <img src="" id="img-1" class="mx-auto w-[80%] h-[70%]" alt="Pokemon">
+        <br>
+        <p class="text-xl font-medium" id="type-1">Type: Default</p>
        </div>
 
-       <div class="Card">
-        <img src="" alt="Pokemon">
-        <p>Type:</p>
+       <div class="shadow-md hide card2 shadow-slate-800  w-[300px] rounded-md h-[350px] bg-[#190482] flex-col p-5">
+        <p class="text-xl font-medium name2">Pokemon</p>
+        <br>
+        <img src="" id="img-2" class="mx-auto w-[80%] h-[70%]" alt="Pokemon">
+        <br>
+        <p class="text-xl font-medium" id="type-2">Type: Back Default</p>
        </div>
 
-       <div class="Card">
-        <img src="" alt="Pokemon">
-        <p>Type:</p>
+       <div class="shadow-md hide card3 shadow-slate-800  w-[300px] rounded-md h-[350px] bg-[#190482] flex-col p-5">
+        <p class="text-xl font-medium name3">Pokemon</p>
+        <br>
+        <img src="" id="img-3" class="mx-auto w-[80%] h-[70%]" alt="Pokemon">
+        <br>
+        <p class="text-xl font-medium" id="type-3">Type: Shiny</p>
        </div>
 
-       <div class="Card">
-        <img src="" alt="Pokemon">
-        <p>Type:</p>
+       <div class="shadow-md hide card4 shadow-slate-800  w-[300px] rounded-md h-[350px] bg-[#190482] flex-col p-5">
+        <p class="text-xl font-medium name4">Pokemon</p>
+        <br>
+        <img src="" id="img-4" class="mx-auto w-[80%] h-[70%]" alt="Pokemon">
+        <br>
+        <p class="text-xl font-medium" id="type-4">Type: Back Shiny</p>
        </div>
 
-       <div class="Card">
-        <img src="" alt="Pokemon">
-        <p>Type:</p>
-       </div> 
     
     </div>
-
+</div> 
     <script src="index.js"></script>
 </body>
 </html>

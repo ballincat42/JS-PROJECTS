@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./Responsive-Navbar/**/*.{html,js}"],
+  content: ["./Search-BarAPI/**/*.{html,js}"],
   theme: {
     extend: {},
   },
