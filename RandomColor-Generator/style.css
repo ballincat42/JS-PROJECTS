@@ -1,9 +1,28 @@
 body{
     margin: 0;
     font-family: cursive;
+    display: flex;
+    flex-direction: column;
 }
 h1{
     text-align: center;
+}
+button{
+    width: 280px;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    color: white;
+    background-color:#5f2fc8;
+    transition-duration: 0.13s;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: #4A249D;
 }
 .container{
     display: flex;
