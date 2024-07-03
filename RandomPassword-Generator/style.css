@@ -8,6 +8,9 @@ body{
     background-color: #4A249D;
     height: 100vh;
 }
+::selection {
+    background: none;
+  }
 h1{
     text-align: center;
 }
@@ -16,7 +19,7 @@ h1{
     flex-wrap: wrap;
     flex-direction: column;
     width: 600px;
-    height: 300px;
+    height: 250px;
     background-color: #4C3BCF;
     box-shadow: 0px 0px 52px 0px rgba(0,0,0,0.52);
 -webkit-box-shadow: -1px 1px 52px 0px rgba(0,0,0,0.52);
