@@ -1,3 +1,23 @@
 body{
     margin: 0px;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.container{
+  z-index: 100;
+  
+}
+.PopUp-Container{
+    z-index: -1;
+    display: flex;
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+}
+img{
+    width: 500px;
+    height: 250px;
+    border-radius: 1px;
+    
 }
